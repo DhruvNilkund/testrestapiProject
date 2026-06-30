@@ -1,0 +1,22 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: testrestapiProject
+  gitServerName: DhruvNilkund
+  gitUrl: https://github.com/DhruvNilkund
+  gitUsername: DhruvNilkund
+  gitBranch: main
+services:
+- serviceName: testrestapi0.new_rad_.services:createPets
+  packages:
+  - name: TestrestapiProject
+    version: "1.0"
+- serviceName: testrestapi0.new_rad_.services:listPets
+  packages:
+  - name: TestrestapiProject
+    version: "1.0"
+- serviceName: testrestapi0.new_rad_.services:showPetById
+  packages:
+  - name: TestrestapiProject
+    version: "1.0"

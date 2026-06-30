@@ -5,19 +5,22 @@
   <value name="lazy_load">yes</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
-  <null name="name"/>
+  <value name="name">TestrestapiProject</value>
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="testrestapiProject">1.0</value>
+  </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <null name="build"/>
+  <value name="build">1</value>
   <null name="description"/>
   <value name="created_date">30-06-2026 10:09:17 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
-  <value name="isProjectPackage">false</value>
+  <value name="isProjectPackage">true</value>
+  <value name="lastUpdated">2026-06-30T10:16:08.291414194Z</value>
 </Values>
