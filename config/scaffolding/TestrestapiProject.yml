@@ -4,13 +4,13 @@ info:
 services:
 - serviceName: testrestapi0.new_rad_.services:createPets
   packages:
-  - name: TestrestapiProject
+  - name: TestradapiProject
     version: "1.0"
 - serviceName: testrestapi0.new_rad_.services:listPets
   packages:
-  - name: TestrestapiProject
+  - name: TestradapiProject
     version: "1.0"
 - serviceName: testrestapi0.new_rad_.services:showPetById
   packages:
-  - name: TestrestapiProject
+  - name: TestradapiProject
     version: "1.0"
